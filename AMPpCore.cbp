@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AMPpCore"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\eigen3\;CMake Files\..\..\..\..\usr\share\eigen3\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kyle/research/AMPpCore"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kyle/research/AMPpCore"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kyle/research/AMPpCore"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AMPpCore">
+				<Option output="/home/kyle/research/AMPpCore/libAMPpCore.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kyle/research/AMPpCore"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/bullet"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 AMPpCore"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AMPpCore/fast">
+				<Option output="/home/kyle/research/AMPpCore/libAMPpCore.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kyle/research/AMPpCore"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/bullet"/>
+					<Add directory="/usr/include/eigen3"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 AMPpCore/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/kyle/research/AMPpCore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kyle/research/AMPpCore/src/DeepMimicCore.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/DeepMimicCore.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/Main.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/Character.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/Character.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/ClipsController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/ClipsController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/KinCharacter.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/KinCharacter.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/KinController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/KinController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/KinCtrlBuilder.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/KinCtrlBuilder.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/KinTree.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/KinTree.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/Motion.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/Motion.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/MotionController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/MotionController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/Shape.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/anim/Shape.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/Camera.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/Camera.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawCharacter.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawCharacter.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawGround.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawGround.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawKinTree.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawKinTree.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawMesh.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawMesh.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawObj.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawObj.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawPerturb.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawPerturb.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawSimCharacter.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawSimCharacter.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawWorld.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/DrawWorld.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/GraphUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/GraphUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/IBuffer.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/IBuffer.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/MatrixStack.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/MatrixStack.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/MeshUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/MeshUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/Shader.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/Shader.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/ShadowMap.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/ShadowMap.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/TextureDesc.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/TextureDesc.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/TextureUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/TextureUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/VertexBuffer.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/VertexBuffer.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/lodepng/lodepng.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/lodepng/lodepng.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/lodepng/lodepng_util.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/render/lodepng/lodepng_util.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawRLScene.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawRLScene.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawScene.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawScene.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneDribbleAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneDribbleAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneHeadingAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneHeadingAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneHeadingAMPGetup.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneHeadingAMPGetup.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneImitate.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneImitate.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneImitateAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneImitateAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneKinChar.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneKinChar.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneSimChar.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneSimChar.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneStrikeAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneStrikeAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneTargetAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/DrawSceneTargetAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/RLScene.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/RLScene.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/RLSceneSimChar.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/RLSceneSimChar.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/Scene.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/Scene.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneBuilder.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneBuilder.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneDribbleAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneDribbleAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneHeadingAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneHeadingAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneHeadingAMPGetup.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneHeadingAMPGetup.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneImitate.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneImitate.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneImitateAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneImitateAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneImitateGrav.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneImitateGrav.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneKinChar.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneKinChar.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneSimChar.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneSimChar.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneStrikeAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneStrikeAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneTargetAMP.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/scenes/SceneTargetAMP.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/AgentRegistry.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/AgentRegistry.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CharController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CharController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/ContactManager.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/ContactManager.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/Controller.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/Controller.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtCtrlUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtCtrlUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtPDController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtPDController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtVelController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtVelController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtrlBuilder.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/CtrlBuilder.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/DeepMimicCharController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/DeepMimicCharController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/ExpPDController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/ExpPDController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/Ground.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/Ground.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/GroundBuilder.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/GroundBuilder.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/GroundPlane.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/GroundPlane.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/ImpPDController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/ImpPDController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/MultiBody.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/MultiBody.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/ObjTracer.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/ObjTracer.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/PDController.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/PDController.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/Perturb.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/Perturb.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/PerturbManager.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/PerturbManager.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/RBDModel.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/RBDModel.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/RBDUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/RBDUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimBodyJoint.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimBodyJoint.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimBodyLink.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimBodyLink.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimBox.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimBox.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCapsule.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCapsule.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCharBuilder.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCharBuilder.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCharGeneral.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCharGeneral.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCharacter.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCharacter.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCylinder.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimCylinder.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimJoint.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimJoint.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimObj.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimObj.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimPlane.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimPlane.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimRigidBody.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimRigidBody.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimSphere.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SimSphere.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SpAlg.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/SpAlg.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/World.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/sim/World.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/Annealer.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/Annealer.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/ArgParser.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/ArgParser.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/BVHReader.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/BVHReader.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/DynamicTimeWarper.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/DynamicTimeWarper.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/FileUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/FileUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/IndexManager.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/IndexManager.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/JsonUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/JsonUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/MathUtil.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/MathUtil.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/Rand.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/Rand.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/Timer.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/Timer.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/Trajectory.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/Trajectory.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/json/json_reader.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/json/json_value.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/src/util/json/json_writer.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/../../../../usr/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/../../../../usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/../../../../usr/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

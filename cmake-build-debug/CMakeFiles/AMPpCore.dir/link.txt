@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libAMPpCore.so -o libAMPpCore.so CMakeFiles/AMPpCore.dir/Main.cpp.o CMakeFiles/AMPpCore.dir/DeepMimicCore.cpp.o  /usr/lib/libBulletDynamics.so /usr/lib/libBulletCollision.so /usr/lib/libLinearMath.so /usr/lib/libBulletSoftBody.so 

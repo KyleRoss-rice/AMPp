@@ -1,0 +1,5 @@
+--scene kin_char
+
+--character_file data/characters/humanoid3d_new.txt
+--kin_ctrl motion
+--motion_file data/motions/humanoid3d_drunk_idle.txt

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AMPpCore"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\eigen3\;CMake Files\..\..\..\..\usr\share\eigen3\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kyle/research/AMPpCore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kyle/research/AMPpCore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kyle/research/AMPpCore/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AMPpCore">
+				<Option output="/home/kyle/research/AMPpCore/cmake-build-debug/libAMPpCore.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kyle/research/AMPpCore/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/bullet"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 AMPpCore"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AMPpCore/fast">
+				<Option output="/home/kyle/research/AMPpCore/cmake-build-debug/libAMPpCore.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kyle/research/AMPpCore/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/bullet"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/../../../../include/c++/11.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 AMPpCore/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/kyle/research/AMPpCore/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kyle/research/AMPpCore/DeepMimicCore.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/DeepMimicCore.h">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/Main.cpp">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/anim">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/render">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/scenes">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/sim">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/util">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/util/json">
+			<Option target="AMPpCore"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/../../../../usr/share/eigen3/cmake/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/../../../../usr/share/eigen3/cmake/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kyle/research/AMPpCore/../../../../usr/share/eigen3/cmake/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\eigen3\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
