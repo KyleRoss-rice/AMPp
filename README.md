@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> b8f48d0 (u)
 ## Build
 1. Pull Singularity container 
 
